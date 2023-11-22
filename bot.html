@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodSAFE</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="containerSidebar">
+            <a href="./index.html">Início</a>
+        </div>
+        <div class="containerSidebar">
+            <a href="./impactos.html">ChatBOT</a>
+        </div>
+        <div class="containerSidebar">
+            <a href="./acoes.html">IMC</a>
+        </div>
+    </div>
+    <header id="header">
+        <h1>Food<span>SAFE.</span></h1>
+        <nav>
+            <a href="./index.html">Início</a>
+            <a href="./bot.html">ChatBot</a>
+            <a href="./calc.html">IMC</a>
+        </nav>
+        <i onclick="toggleSidebar()" class="fa-solid fa-bars"></i>
+    </header>
+    <main>
+        <div class="chat-container">
+            <div id="chat-display"></div>
+            <input type="text" id="user-input" placeholder="Digite sua pergunta...">
+            <button onclick="askQuestion()">Enviar</button>
+        </div>
+    </div>
+</main>
+</body>
+</html>
